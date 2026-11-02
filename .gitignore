@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+*.egg-info/
+
+# Modelos entrenados pesados (se pueden regenerar)
+#results/modelos/*.pt
+#results/modelos/*.pth
+!results/modelos/.gitkeep
+
+# Salida local de graphify
+graphify-out/
