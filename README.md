@@ -4,6 +4,10 @@ Proyecto final del curso CC3104 Aprendizaje por Refuerzo (Universidad del Valle 
 
 **RiegoRL** es un agente de aprendizaje por refuerzo que decide cada día cuánta agua aplicar a una parcela de maíz. Busca maximizar el rendimiento relativo y minimizar el agua aplicada y el estrés hídrico. El entorno simula el balance hídrico del suelo con FAO-56 usando datos climáticos reales de Chiquimula, en el Corredor Seco de Guatemala.
 
+## Video de presentación
+
+Presentación del proyecto y ejecución del programa: [https://youtu.be/rxHjj0YbTBg](https://youtu.be/rxHjj0YbTBg)
+
 ## El problema
 
 - **Cultivo:** maíz de grano, temporada de 125 días (etapas de 20, 35, 40 y 30 días).
