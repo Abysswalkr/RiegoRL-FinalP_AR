@@ -14,3 +14,6 @@ venv/
 
 # Salida local de graphify
 graphify-out/
+
+# macOS
+.DS_Store

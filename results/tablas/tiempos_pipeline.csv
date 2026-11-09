@@ -1,0 +1,11 @@
+paso,segundos
+Pruebas,9.7
+Baselines en val,1.7
+Q-learning sin presupuesto,91.4
+Q-learning presupuesto 150 mm,86.7
+DQN sin presupuesto,140.7
+DQN presupuesto 150 mm,206.9
+Evaluación final en test,8.2
+Figuras,11.0
+Demo,69.2
+Total,625.5000000000001

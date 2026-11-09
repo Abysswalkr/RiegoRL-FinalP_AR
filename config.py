@@ -82,6 +82,23 @@ SEMILLA_GLOBAL = 42
 SEMILLAS_EVAL = (0, 1, 2)
 GAMMA = 0.99  # sugerido para los agentes
 
+# Agentes de RL: CONFIGURACIÓN FINAL (justificada en docs/ITERACIONES.md)
+LAMBDA_AGUA_ENTRENAMIENTO = LAMBDA_AGUA  # iteración 4: 0.6 no mejoró en val
+
+QL_ALPHA = 0.1
+QL_ALPHA_FIN = 0.01  # iteración 1: α decae linealmente de 0.1 a 0.01
+QL_EPISODIOS = 20_000
+QL_TIEMPO_MAX_S = 300
+QL_N_DEPLECION = 10
+QL_Q_INICIAL = 80.0  # iteración 1: optimista, mayor que el retorno máximo (~74)
+QL_USAR_PRONOSTICO = False  # iteración 3: 40 estados en vez de 120
+
+DQN_USAR_PRONOSTICO = True  # iteración 3: quitarlo no cambió el resultado
+DQN_EPISODIOS = 2_000
+DQN_TIEMPO_MAX_S = 840
+DQN_LR = 1e-3
+DQN_FRACCION_EPS = 0.5
+
 
 def parametros(**cambios):
     """Dict con todos los parámetros de este módulo; `cambios` sobrescribe valores."""
